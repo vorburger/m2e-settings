@@ -4,9 +4,9 @@
 <target name="m2e-settings-e372" sequenceNumber="30">
 <locations>
 <location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="ch.qos.logback.core" version="0.9.27.v20110224-1110"/>
-<unit id="org.slf4j.api" version="1.6.1.v20100831-0715"/>
-<repository location="http://download.eclipse.org/tools/orbit/downloads/drops/S20110907174232/repository/"/>
+<unit id="ch.qos.logback.core" version="1.0.0.v20111214-2030"/>
+<unit id="org.slf4j.api" version="1.6.4.v20120130-2120"/>
+<repository location="http://download.eclipse.org/tools/orbit/downloads/drops/S20120917013952/repository/"/>
 </location>
 <location includeAllPlatforms="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.m2e.sdk.feature.feature.group" version="1.0.100.20110804-1717"/>
