@@ -4,13 +4,17 @@ Usage example:
   <plugins>
     <plugin>
       <groupId>org.eclipse.m2e.settings</groupId>
-      <artifactId>maven-eclipse-plugin</artifactId>
+      <artifactId>maven-m2e-settings-plugin</artifactId>
       <version>1.2.1</version>
 
       <configuration>
         <formatter>
           <filename>sample-formatting.xml</filename>
         </formatter>
+				<preference>
+					<filename>edu.umd.cs.findbugs.plugin.eclipse.prefs</filename>
+					<name>edu.umd.cs.findbugs.plugin.eclipse</name>
+				</preference>
       </configuration>
 
       <dependencies>
