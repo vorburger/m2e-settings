@@ -1,5 +1,6 @@
 Usage example:
 
+``` xml
 <build>
   <plugins>
     <plugin>
@@ -29,3 +30,4 @@ Usage example:
    </plugin>
  </plugins>
 </build>
+```
