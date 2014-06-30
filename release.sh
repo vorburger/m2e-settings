@@ -247,5 +247,12 @@ else
 fi
 
 echo "
-Done
+Done!
+
+All you need to do is check whether the release is OK, and then publish 
+the artefacts by issuing the following command:
+
+    git push
+
+Have fun!
 "
