@@ -22,4 +22,15 @@
 		<module>nl.topicus.m2e.settings</module>
 		<module>nl.topicus.m2e.settings.feature</module>
 	</modules>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<artifactId>maven-release-plugin</artifactId>
+					<version>2.5</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
 </project>
