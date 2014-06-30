@@ -1,25 +1,25 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>io.tesla.tycho</groupId>
 		<artifactId>tycho-support</artifactId>
-		<version>0.0.9</version>
+		<version>0.0.13</version>
 	</parent>
-  <groupId>nl.topicus.m2e</groupId>
+	<groupId>nl.topicus.m2e</groupId>
 	<artifactId>nl.topicus.m2e.settings.parent</artifactId>
-  <version>2.0.0-SNAPSHOT</version>
-  <packaging>pom</packaging>
-  <name>General settings configuration support</name>
-  <description>Allow the eclipse settings configuration (file encoding, formater ...) from maven configuration.</description>
+	<version>2.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>General settings configuration support</name>
+	<description>Allow the eclipse settings configuration (file encoding, formater ...) from maven configuration.</description>
 
-  <properties>
+	<properties>
 		<repositoryPathId>m2e-settings</repositoryPathId>
 		<p2MetadataName>M2E Handler for maven-eclipse-plugin</p2MetadataName>
 	</properties>
 
-  <modules>
+	<modules>
 		<module>nl.topicus.m2e.settings</module>
 		<module>nl.topicus.m2e.settings.feature</module>
-  </modules>
+	</modules>
 </project>
