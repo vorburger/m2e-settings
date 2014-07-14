@@ -1,3 +1,5 @@
+# M2E Settings
+
 Provide consistent Eclipse IDE settings for your team from a Maven POM.
 The M2E Settings plugin will copy formatting, findbugs and other plugin
 settings from a centrally maintained settings JAR to your workspace and
@@ -10,7 +12,13 @@ configure each project to use those settings.
 Many thanks to [Olivier Nouguier](https://github.com/cheleb) for the
 [first version of this plugin](https://github.com/cheleb/m2e-settings).
 
-## Installing
+### Table of Contents
+
+ - [Installation](#Installation)
+ - [Configuration](#Configuration)
+ - [Building a release](#Releasing)
+
+## Installation
 
 Update site URL:
 
@@ -170,7 +178,12 @@ in Eclipse. Typically this is done by:
  - right-clicking on the selection and
  - clicking "Maven → Update project"
 
-## Building a release
+## Releasing
+
+If you are a developer of this project and have made some modifications use
+this guide to build a release to distribute it to the users.
+
+### Building a release
 
 Run the release shell script from the root folder of the m2e-settings
 project:
