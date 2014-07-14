@@ -12,6 +12,8 @@ configure each project to use those settings.
 Many thanks to [Olivier Nouguier](https://github.com/cheleb) for the
 [first version of this plugin](https://github.com/cheleb/m2e-settings).
 
+This project is licensed under the [MIT license](https://github.com/topicusonderwijs/m2e-settings/blob/master/LICENSE.txt).
+
 ### Table of Contents
 
  - [Installation](#installation)
