@@ -152,7 +152,7 @@ from your settings JAR in the right location:
 <plugin>
     <...>
     <configuration>
-    <additionalConfig>
+        <additionalConfig>
             <file>
                 <name>.settings/org.eclipse.jdt.core.prefs</name>
                 <location>/org.eclipse.jdt.core.prefs</location>
