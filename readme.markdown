@@ -149,19 +149,22 @@ location to another][2]. You use that to put each configuration file
 from your settings JAR in the right location:
 
 ``` xml
-<configuration>
+<plugin>
+    <...>
+    <configuration>
     <additionalConfig>
-        <file>
-            <name>.settings/org.eclipse.jdt.core.prefs</name>
-            <location>/org.eclipse.jdt.core.prefs</location>
-        </file>
-        <file>
-            <name>.settings/org.eclipse.jdt.ui.prefs</name>
-            <location>/org.eclipse.jdt.ui.prefs</location>
-        </file>
-        <!-- and more... -->
-    </additionalConfig>
-</configuration>
+            <file>
+                <name>.settings/org.eclipse.jdt.core.prefs</name>
+                <location>/org.eclipse.jdt.core.prefs</location>
+            </file>
+            <file>
+                <name>.settings/org.eclipse.jdt.ui.prefs</name>
+                <location>/org.eclipse.jdt.ui.prefs</location>
+            </file>
+            <!-- and more... -->
+        </additionalConfig>
+    </configuration>
+</plugin>
 ```
 
 ### Re-import projects in Eclipse
