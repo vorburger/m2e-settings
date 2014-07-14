@@ -146,27 +146,22 @@ You then specify your 'settings JAR' file as a dependency to the
 
 The *maven-eclipse-plugin* allows you to [move settings files from one
 location to another][2]. You use that to put each configuration file
-from your settins JAR in the right location:
+from your settings JAR in the right location:
 
 ``` xml
-<plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-eclipse-plugin</artifactId>
-    <version>2.9</version>
-    <configuration>
-        <additionalConfig>
-            <file>
-                <name>.settings/org.eclipse.jdt.core.prefs</name>
-                <location>/org.eclipse.jdt.core.prefs</location>
-            </file>
-            <file>
-                <name>.settings/org.eclipse.jdt.ui.prefs</name>
-                <location>/org.eclipse.jdt.ui.prefs</location>
-            </file>
-            <!-- and more... -->
-        </additionalConfig>
-    </configuration>
-</plugin>
+<configuration>
+    <additionalConfig>
+        <file>
+            <name>.settings/org.eclipse.jdt.core.prefs</name>
+            <location>/org.eclipse.jdt.core.prefs</location>
+        </file>
+        <file>
+            <name>.settings/org.eclipse.jdt.ui.prefs</name>
+            <location>/org.eclipse.jdt.ui.prefs</location>
+        </file>
+        <!-- and more... -->
+    </additionalConfig>
+</configuration>
 ```
 
 ### Re-import projects in Eclipse
