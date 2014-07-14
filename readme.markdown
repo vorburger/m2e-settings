@@ -14,9 +14,9 @@ Many thanks to [Olivier Nouguier](https://github.com/cheleb) for the
 
 ### Table of Contents
 
- - [Installation](#Installation)
- - [Configuration](#Configuration)
- - [Building a release](#Releasing)
+ - [Installation](#installation)
+ - [Configuration](#configuration)
+ - [Building a release](https://github.com/topicusonderwijs/m2e-settings/blob/master/readme.markdown#releasing)
 
 ## Installation
 
