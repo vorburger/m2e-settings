@@ -2,7 +2,7 @@
 <feature
       id="nl.topicus.m2e.settings.feature"
       label="Eclipse Settings for M2E"
-			version="2.0.2.qualifier"
+			version="2.0.2.201407161542"
 			plugin="nl.topicus.m2e.settings">
 
    <requires>
