@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: M2E Settings
 Bundle-SymbolicName: nl.topicus.m2e.settings;singleton:=true
-Bundle-Version: 2.0.3.qualifier
+Bundle-Version: 2.0.3.201407161555
 Bundle-Vendor: Topicus Onderwijs
 Bundle-RequiredExecutionEnvironment:  JavaSE-1.7
 Require-Bundle: org.eclipse.core.runtime,

@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>nl.topicus.m2e</groupId>
 		<artifactId>nl.topicus.m2e.settings.parent</artifactId>
-		<version>2.0.3-SNAPSHOT</version>
+		<version>2.0.3.201407161555</version>
 	</parent>
 
 	<artifactId>nl.topicus.m2e.settings</artifactId>
