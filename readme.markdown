@@ -28,8 +28,8 @@ Update site URL:
 
 ### Eclipse Marketplace
 
-We are investigating to distribute the plugin through the Eclipse
-marketplace.
+The plugin is also available from [Eclipse Marketplace](http://marketplace.eclipse.org/content/m2e-settings).
+Just open up the marketplace search and search for `M2E Settings`.
 
 ### Installing the Eclipse plugin
 
