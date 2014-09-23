@@ -144,6 +144,18 @@ You then specify your 'settings JAR' file as a dependency to the
 </plugin>
 ```
 
+As the M2E Settings plugin needs to be bound to a Maven lifecycle, and
+the most common lifecycle is the compile lifecycle, you also need to
+specify the maven-compiler-plugin in your POM. At the minimum you'll 
+need:
+
+``` xml
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-eclipse-plugin</artifactId>
+</plugin>
+```
+
 #### Putting the settings in the right place
 
 The *maven-eclipse-plugin* allows you to [move settings files from one
