@@ -152,7 +152,7 @@ need:
 ``` xml
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-eclipse-plugin</artifactId>
+    <artifactId>maven-compiler-plugin</artifactId>
 </plugin>
 ```
 
