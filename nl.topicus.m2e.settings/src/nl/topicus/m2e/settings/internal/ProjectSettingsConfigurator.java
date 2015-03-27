@@ -17,9 +17,6 @@ import org.eclipse.core.runtime.CoreException;
 import org.eclipse.core.runtime.IPath;
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.core.runtime.Path;
-import org.eclipse.m2e.core.MavenPlugin;
-import org.eclipse.m2e.core.embedder.MavenRuntime;
-import org.eclipse.m2e.core.embedder.MavenRuntimeManager;
 import org.eclipse.m2e.core.project.configurator.AbstractProjectConfigurator;
 import org.eclipse.m2e.core.project.configurator.ProjectConfigurationRequest;
 import org.osgi.service.prefs.BackingStoreException;
@@ -65,16 +62,6 @@ public class ProjectSettingsConfigurator extends AbstractProjectConfigurator {
 			}
 		}
 
-	}
-
-	public static MavenRuntime getMavenRuntime(String location)
-			throws CoreException {
-		MavenRuntimeManager runtimeManager = MavenPlugin
-				.getMavenRuntimeManager();
-
-		MavenRuntime runtime = runtimeManager.getRuntime(location);
-
-		return runtime;
 	}
 
 	/**
