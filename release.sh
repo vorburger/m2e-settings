@@ -120,9 +120,9 @@ else
     echo "" >> target/release.log
 fi
 
-printf "Performing: 'mv nl.topicus.m2e.settings.feature/target/site .' "
-echo "mv nl.topicus.m2e.settings.feature/target/site ." >> target/release.log;
-if ! mv nl.topicus.m2e.settings.feature/target/site . >> target/release.log;
+printf "Performing: 'mv nl.topicus.m2e.settings.repository/target/repository ./site' "
+echo "mv nl.topicus.m2e.settings.repository/target/repository ./site" >> target/release.log;
+if ! mv nl.topicus.m2e.settings.repository/target/repository ./site >> target/release.log;
 then
     echo "FAILED...
 

@@ -23,6 +23,7 @@
 	<modules>
 		<module>nl.topicus.m2e.settings</module>
 		<module>nl.topicus.m2e.settings.feature</module>
+		<module>nl.topicus.m2e.settings.repository</module>
 	</modules>
 
 	<build>
@@ -104,6 +105,14 @@
 					<groupId>org.eclipse.tycho</groupId>
 					<artifactId>tycho-versions-plugin</artifactId>
 					<version>${tychoVersion}</version>
+				</plugin>
+				<plugin>
+					<groupId>org.eclipse.tycho</groupId>
+					<artifactId>tycho-p2-repository-plugin</artifactId>
+					<version>${tychoVersion}</version>
+					<configuration>
+						<compress>true</compress>
+					</configuration>
 				</plugin>
 			</plugins>
 		</pluginManagement>
