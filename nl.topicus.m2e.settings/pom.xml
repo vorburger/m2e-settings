@@ -12,5 +12,5 @@
 	<artifactId>nl.topicus.m2e.settings</artifactId>
 	<packaging>eclipse-plugin</packaging>
 
-	<name>Maven Integration for Eclipse Settings</name>
+	<name>Plugin</name>
 </project>
