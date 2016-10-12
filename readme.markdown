@@ -14,6 +14,10 @@ Many thanks to [Olivier Nouguier](https://github.com/cheleb) for the
 
 This project is licensed under the [MIT license](https://github.com/topicusonderwijs/m2e-settings/blob/master/LICENSE.txt).
 
+### Alternative
+
+[m2e-code-quality](https://github.com/m2e-code-quality/m2e-code-quality) is a similar alternative project to this one, which you may find of interest to look at if you are reading this.  While this project here applies settings from `.settings/*.prefs` files to Eclipse, that project maps a (known limited set of) other Maven plugins' configurations to Eclipse settings (with the advantage that you'll have the same settings in the mvn CLI build and the IDE).
+
 ### Table of Contents
 
  - [Installation](#installation)
